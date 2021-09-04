@@ -1,0 +1,208 @@
+* {
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.div1 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 0,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("../Assets/bg-image.jpg");
+  margin: 0 0 5px 0;
+}
+
+div.div2 {
+  color: white;
+  text-align: left;
+  margin: auto;
+  padding: 100px;
+  background-color: black;
+  margin: 0 0 5px 0;
+  display: flex;
+}
+
+div.div3 {
+  color: white;
+  text-align: right;
+  margin: auto;
+  padding: 100px;
+  background-color: black;
+  margin: 0 0 5px 0;
+  display: flex;
+  justify-content: center;
+}
+
+div.div4 {
+  color: white;
+  text-align: left;
+  margin: auto;
+  padding: 100px;
+  background-color: black;
+  margin: 0 0 5px 0;
+  display: flex;
+}
+
+div.div5 {
+  color: white;
+  text-align: right;
+  margin: auto;
+  padding: 100px;
+  background-color: black;
+  margin: 0 0 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.div6 {
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding: 100px;
+  background-color: black;
+  margin: 0 0 5px 0;
+}
+
+body {
+  background-color: rgb(65, 57, 57);
+  margin: 0 0 0 0;
+}
+
+img.netfliximage {
+  margin: 0 0 0 10px;
+  width: 167px;
+  height: 90px;
+}
+
+button.signinbtn {
+  color: white;
+  background-color: red;
+  padding: 7px;
+  margin: 15px 40px 0 0;
+  width: 80px;
+  border: none;
+  position: relative;
+}
+
+div.netflix-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+select.English {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid #aaa;
+  color: #fff;
+  padding: 5px;
+  position: relative;
+  margin: 0 20px 0 0;
+}
+
+input.email {
+  color: black;
+  background-color: white;
+  padding: 20px;
+  position: relative;
+  border: none;
+  width: 350px;
+}
+
+button.getstarted {
+  color: white;
+  background-color: red;
+  padding: 20px;
+  border: none;
+  position: relative;
+  width: 160px;
+}
+
+div.center-content {
+  color: white;
+  text-align: center;
+  padding: 150px 0;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: red;
+  background-color: black;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-container > div {
+  color: white;
+  padding: 10px 0;
+}
+
+div.div7 {
+  color: white;
+  margin: auto;
+  padding: 75px;
+  background-color: black;
+  margin: 0 0 0 0;
+}
+
+div.email-getstarted {
+  display: flex;
+  justify-content: center;
+}
+
+h1.head1 {
+  margin: 0;
+  font-size: -webkit-xxx-large;
+}
+
+h2.head2 {
+  margin: 15px 0;
+}
+
+div.emailid {
+  display: flex;
+  justify-content: center;
+}
+
+button.questions {
+  background: #303030;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  position: relative;
+  width: 500px;
+}
+
+li.list {
+  margin: 20px;
+  list-style: none;
+  min-width: 100px;
+  width: 20%;
+  color: grey;
+}
+
+.list {
+  display: inline-block;
+  font-size: smaller;
+}
+
+.ulist {
+  list-style: none;
+  min-width: 100px;
+  color: grey;
+}
+
+button.questions {
+  margin: 10px;
+}
+
+.paragraph {
+  color: grey;
+}

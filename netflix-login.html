@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="./css/netflix-login.css" />
+    <script src="./javascript/javascript.js"></script>
+  </head>
+  <body>
+    <div>
+      <img src="./assets/Netflix.svg" class="netfliximage" />
+    </div>
+    <div class="signinbox">
+      <div>
+        <div>
+          <h1 class="signinheading">Sign In</h1>
+        </div>
+        <form
+          name="myForm"
+          action="./HTML/netflix-dashboard.html"
+          onsubmit="return passvalues()"
+          class="form"
+        >
+          <input
+            type="text"
+            id="uname"
+            placeholder="Email or Phone Number"
+            class="name"
+          />
+
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            class="password"
+          />
+
+          <input type="submit" value="Submit" class="signinbtn" />
+        </form>
+        <div class="flex-container">
+          <span>
+            <input
+              class="remember-me"
+              type="checkbox"
+              name="Remember Me"
+              checked
+            />
+            <label class="remember">Remember Me</label>
+          </span>
+          <a href="">Need Help?</a>
+        </div>
+      </div>
+      <div class="othersignin">
+        <form name="myform2" class="otherform">
+          <img src="./assets/facebook.svg" class="facebook" />
+          <a href="https://www.netflix.com/in/LoginHelp" class="loginwithfb"
+            >Login with facebook</a
+          >
+        </form>
+      </div>
+      <p class="paragraph">
+        New to Netflix?
+        <a href="./HTML/netflix-signup.html" class="signupnow">Sign Up Now</a>
+      </p>
+      <p class="paragraph">
+        This page is protected by Google reCAPTCHA to ensure you're not a bot.
+        <a href="" class="learnmore"> Learn more.</a>
+      </p>
+    </div>
+  </body>
+  <footer class="footerbox">
+    <div>
+      <p class="paragraph">Questions? Call 000-800-040-1843</p>
+    </div>
+    <div class="flex-container1">
+      <div>FAQ</div>
+      <div>Help Centre</div>
+      <div>Terms of Use</div>
+      <div>Privacy</div>
+    </div>
+    <div class="flex-container1">
+      <div>Cookie Preferences</div>
+      <div>Corporate Information</div>
+    </div>
+    <div>
+      <select class="English">
+        <option value="Enlish">English</option>
+        <option value="Hindi">Hindi</option>
+      </select>
+    </div>
+  </footer>
+</html>

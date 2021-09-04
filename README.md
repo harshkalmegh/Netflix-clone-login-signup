@@ -1,1 +1,1 @@
-# Netflix-clone-login-signup
+# Netflix-Login-and-SignUp
